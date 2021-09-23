@@ -11,7 +11,7 @@ namespace AnimatedServerTitle
         public override string Name { get; } = "AnimatedServerTitle";
         public override string Prefix { get; } = "animatedservertitle";
         public override string Author { get; } = "Killers0992";
-        public override Version Version { get; } = new Version(1, 0, 0);
+        public override Version Version { get; } = new Version(1, 0, 1);
 
         private CoroutineHandle Handler;
         private Harmony Harmony;
